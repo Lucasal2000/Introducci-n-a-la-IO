@@ -1,5 +1,7 @@
 \documentclass{article}
 \usepackage[spanish]{babel}
+\usepackage{amssymb, amsmath}
+\usepackage{graphicx}
 \usepackage{hyperref}
 \hypersetup{
 colorlinks=true,
@@ -55,4 +57,23 @@ Poner en práctica la solución final.
 \subsection{Problema de planificación de producción}
 \subsection{Problema de de la dieta}
 \subsection{Problema de cartera de valores}
+
+\section{Programación lineal}
+Dentro de la investigación operativa encontramos los problemas de programación lineal.
+
+Un problema de programación lineal es un programa matemático en el cual la función objetivo es lineal en las variables de decisión y cada restricción es una desigualdad lineal. Además tiene una restricción de signo; es decir, las variables de decisión son no negativas. Vamos a ver un pequeño ejemplo:
+
+\textbf{Ejemplo}
+\begin{equation}
+\begin{split}
+MaxZ&=2x_1+2x_2\\
+s.a.~&-x_1+x_2\leq 2\\
+&x_1+2x_2\leq 6\\
+&2x_1+x_2\leq 6\\
+&x_1,x_2\geq 0
+\end{split}
+\end{equation}
+\begin{center}
+\includegraphics[width=.70\textwidth]{ej_grafi.png} \\
+\end{center}
 \end{document}
