@@ -1,11 +1,17 @@
 \documentclass{article}
 \usepackage[spanish]{babel}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+citecolor=blue,
+urlcolor=blue
+}
 \author{Lucas Aljarilla Sanchez}
 \title{Introducción a la Investigación Operativa}
 \begin{document}
 \maketitle
 \begin{abstract}
-Breve introducción a la investigación operativa para aquelos que quieren saber un poco más de este mundillo. Veremos cómo surgió, los tipos que hay y sus usos actuales.
+Breve introducción a la investigación operativa para aquelos que quieren saber un poco más de este mundillo. Veremos cómo surgió, los tipos que hay y sus usos actuales. Para más información sobre este trabajo mirar la url: \url{https://github.com/Lucasal2000/proyecto_final} 
 \end{abstract}
 \section{Introducción}
 
@@ -16,17 +22,37 @@ En resumidas cuentas, es la rama de las matemáticas que se ocupa de la toma de 
 \section{Etapas de un problema de investigación operativa}
 
 \subsection{Formulación del problema}
+Estudiar el sistema que se va a analizar:Definir el problema, especificar los objetivos y las limitaciones bajo las cuales opera el sistema que se modeliza.
 \subsection{Construcción del modelo}
+Modelo: Representación idealizada del sistema que reproduce la realidad de la forma más fiel posible, tratando de entender cómo se comporta el mundo real.
 \subsection{Obtención de solución}
+Obtener una solución óptima teniendo en cuenta que estas soluciones son óptimas sólo respecto al modelo utilizado.
 \subsection{Validación del modelo}
+Comprobar si el modelo propuesto hace lo que se supone que debe hacer.
+¿Proporciona una predicción razonable del comportamiento del sistema que se está estudiando?
 \subsection{Puesta en practica}
+Poner en práctica la solución final.
+\section{Modelos de investigación operativa}
+\begin{minipage}[b]{0.5\linewidth}
+\begin{itemize}
+\item \textbf{Determinísticos}
+\item Análisis de redes
+\item Programación lineal multiobjetivo
+\item Programación lineal
+\end{itemize}
+    \end{minipage} 
+    \begin{minipage}[b]{0.5\linewidth} 
+\begin{itemize}
+\item \textbf{Estocásticos}
+\item Teoria de intervalos
+\item Teoría de juegos
+\item Teoria de colas
+\end{itemize}    
+\end{minipage}
 
-
-
-
-
-
-
-
-
+\section{Aplicaciones de la investigación operativa}
+\subsection{Problema de transporte}
+\subsection{Problema de planificación de producción}
+\subsection{Problema de de la dieta}
+\subsection{Problema de cartera de valores}
 \end{document}
